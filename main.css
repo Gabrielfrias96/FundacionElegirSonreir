@@ -1,0 +1,378 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ 
+
+body{
+    background-color: #f3f0ed;
+    font-family: "CHANEWEI", Helvetica, Arial, sans-serif;
+}
+
+header{
+    background-color:#0389d1;
+}
+
+.bg-primary{
+    background-color:#0389d1 !important ;
+    color: aliceblue ;
+}
+
+.container-nav{
+    background-color:#037dbf;
+}
+.img-logo{
+    width: 7wh;
+    height: 7vh;
+}
+
+.img-portada{
+    width: 50wh;
+    height: 50vh;
+}
+
+ul li{
+    text-align: center;
+    padding: 10px 10px 0px 10px;
+    display: inline-block;
+    
+}
+
+ul li a{
+    font-size: 1.1em;;
+    text-decoration: none;
+    color: white !important;
+}
+
+ul li a:hover{
+    color: rgb(230, 222, 222) !important;
+}
+
+/*============== */
+.caja-video{
+    position: relative;
+    width: 100%;
+    height: 60vh
+}
+
+.container-hero{
+    width: 100%;
+    height: 80vh;
+}
+
+.video-hero{
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    
+}
+
+.logo-video{
+    position: absolute;
+    width: 100%;
+    height: 60vh;
+    top:0;
+    background-color:rgba(0,0,0,0.5);
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+ .logo-video img{
+     width: 330px;
+ }
+
+
+
+/* Animaciones */
+
+animate__animated animate__bounceIn {
+    --animation-delay: 2;
+}
+
+/* Cards Mision*/
+
+.show-card{
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.btn-primary{
+    background-color:#0389d1 !important;
+    color:white !important;
+}
+
+.btn-primary:hover{
+   background-color: #037dbf !important;
+   color: white !important;
+}
+
+.barra{
+    width: 100%;
+    height:10px;
+    background-color:#0389d1;
+}
+
+.img-card{
+   width: 100%;
+   height: 200px;
+   object-fit: cover;
+}
+
+
+/* ====== Social Media ======*/
+
+.container-social{
+    position:fixed;
+    right: 0;
+    top:150px;
+    z-index: 10;
+    cursor:pointer;
+}
+
+.social-wpp{
+    padding:10px;
+    background-color:#18b596;
+    color: white;
+    border-top-left-radius: 25px;
+}
+
+.social-fb {
+    padding:10px;
+    background-color:#0389d1;
+    color: white;
+    
+    
+}
+
+.social-insta{
+    padding:10px;
+    background-color:#333;
+    color : white;
+
+}
+
+.social-mail{
+    padding:10px;
+    background-color:#e74c3c;
+    color:white;
+}
+
+.container-social a{
+    color:white;
+}
+
+.social-wpp a{
+    
+    color: white;
+}
+
+.social-fb {
+    padding:10px;
+    background-color:#0389d1;
+    color: white;
+    
+    
+}
+
+.social-insta{
+    padding:10px;
+    background-color:#333;
+    color : white;
+
+}
+
+.social-mail{
+    padding:10px;
+    background-color:#e74c3c;
+    color:white;
+}
+
+
+.social-fb:hover{
+    transform: translateX(-15px);
+    transition: 0.4s;
+}
+
+.social-insta:hover{
+    transform: translateX(-15px);
+    transition: 0.4s;
+}
+
+.social-wpp:hover{
+    transform: translateX(-15px);
+    transition: 0.4s;
+}
+
+.social-mail:hover{
+    transform: translateX(-15px);
+    transition: 0.4s;
+}
+
+
+.social-mail{
+    padding:10px;
+    border-bottom-left-radius: 25px;
+}
+
+
+i{
+    font-size: 1.5rem;
+}
+
+
+/* === Donacion ====*/
+
+
+
+.box-donar{
+    width: 100%;
+    height:100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:rgb(0,0,0,0.7);
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.modal-donar{
+    width: 80%;
+    font-weight: 700;
+    height:500px;
+    background-color:white;
+    color: black;
+}
+
+
+.modal-active{
+    visibility: visible
+}
+
+
+.donacion a{
+    
+    text-decoration: none;
+   
+}
+
+/*==================== page Nosotros ====================*/
+
+.box-programa{
+    
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 25px;
+    color: white;
+    width: 150px;
+    background-color:#0389d1;
+}
+
+.boxingShadow{
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+
+#cardPeople{
+    margin-top: 10%;
+    width: 300px;
+    height:100px;
+    border-radius: 25px;
+    background-color:white;
+    
+    
+}
+
+
+.img-people{
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/*.box-programa h6{
+    font-size: 0.8em;
+    font-weight:200;
+
+}
+*/
+/*=======================page Donacion============================================*/
+.box-info_donacion{
+    cursor:pointer;
+    width:320px;
+    
+}
+
+.img-dona{
+    width:320px;
+    height:150px;
+    overflow:hidden;
+}
+
+.img-mp{
+    width: 300px;
+    height: 100px;
+}
+
+
+/*======================= Footer =============*/
+
+.footer-top{
+    background-color:#0389d1;
+    font-weight: 100;
+    color: white;
+}
+
+
+.footer-buttom{
+    background-color: #333;
+    color: white;
+}
+
+.ul-footer{
+    text-align:start !important;
+    display:block !important;
+}
+
+
+/*============= Medias Querys ===================*/
+
+    @media only screen and (max-width: 557px){
+
+        .caja-video{
+            position: relative;
+            width: 100%;
+            height: 30vh
+        }
+        
+        .container-hero{
+            width: 100%;
+            height: 40vh;
+        }
+        
+        .video-hero{
+            width: 100%;
+            height: 30vh;
+            object-fit: cover;
+            
+        }
+        
+        .logo-video{
+            position: absolute;
+            width: 100%;
+            height: 30vh;
+            top:0;
+            background-color:rgba(0,0,0,0.5);
+            display:flex;
+            justify-content: space-evenly;
+            align-items: center;
+            
+        }
+         .logo-video img{
+             width: 160px;
+         }
+
+    }
